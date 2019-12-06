@@ -1,7 +1,7 @@
 # blogchat
 ***
 ## 自写文章
-1.[file,stream,buffer的区别](./1/1.md)
+1. [file,stream,buffer的区别](./1/1.md)
 2. [webpack中source-map](./1/2.md)
 ***
 ## 经典好文
