@@ -1,9 +1,10 @@
 # blogchat
 ***
 ## 自写文章
-1. [file,stream,buffer的区别](./1/1.md)
-2. [webpack中source-map](./1/2.md)
+* [file,stream,buffer的区别](./1/1.md)
+* [webpack中source-map](./1/2.md)
 ***
 ## 经典好文
-1. [Session和cookie深度理解](https://www.jianshu.com/p/25802021be63)
-2. [阮一峰JWT](https://segmentfault.com/a/1190000017248226)
+* [Session和cookie深度理解](https://www.jianshu.com/p/25802021be63)
+* [阮一峰JWT](https://segmentfault.com/a/1190000017248226)
+* [麦松服务器总结配置](https://blog.csdn.net/qq_40121685/article/details/102504131)
