@@ -2,8 +2,9 @@
 ## 博客记录
 * [docker深入浅出](./1/3.md)
 * [react hooks和Ts实战](./1/4.md)
-* [file,stream,buffer的区别](./1/1.md)
+* [react二次封装json编辑器](./1/json.md)
 * [webpack中source-map](./1/2.md)
+* [javascript设计模式](./1/5.md)
 ------
 
 ## 工具类
