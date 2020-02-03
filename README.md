@@ -1,10 +1,12 @@
 
 ## 博客记录
-* [docker深入浅出](./1/3.md)
-* [react hooks和Ts实战](./1/4.md)
+* [docker深入浅出](./1/docker1.md)
+* [react hooks和Ts实战](./1/hookTs.md)
 * [react二次封装json编辑器](./1/json.md)
 * [webpack中source-map](./1/2.md)
-* [javascript设计模式](./1/5.md)
+* [javascript设计模式](./1/设计模式1.md)
+* [Devops和git Flow模型的理解](./1/Devops.md)
+* [深入Vue框架的使用](./1/深入理解Vue框.md)
 ------
 
 ## 工具类
