@@ -10,6 +10,8 @@
 * [深入Vue框架的使用](./1/深入理解Vue框.md)
 * [npm,nvm,nrm的区别和yarn的使用](./1/yarn.md)
 * [微信小程序入门](./1/微信小程序入门.md)
+* [next.js的使用](./1/next.js的使用.md)
+* [canvas的基本使用](./1/canvas的基本使用.md)
 ------
 
 ## 工具类
