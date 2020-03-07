@@ -1,6 +1,7 @@
 
 ## 博客记录
 * [docker深入浅出](./1/docker1.md)
+* [前端跨域处理的七种方式](./1/前端跨域处理的几种方式.md)
 * [react hooks和Ts实战](./1/hookTs.md)
 * [react二次封装json编辑器](./1/json.md)
 * [彻底理解CSS屏幕适配方案](./1/彻底理解CSS屏幕适配方案.md)
@@ -11,7 +12,8 @@
 * [npm,nvm,nrm的区别和yarn的使用](./1/yarn.md)
 * [微信小程序入门](./1/微信小程序入门.md)
 * [next.js的使用](./1/next.js的使用.md)
-* [canvas的基本使用](./1/canvas的基本使用.md)
+* [浅入浅出React中SetState原理](./1/浅入浅出React中SetState原理.md)
+* [JavaScript垃圾回收机制](./1/JavaScript垃圾回收机制.md)
 ------
 
 ## 工具类
