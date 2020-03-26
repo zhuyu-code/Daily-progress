@@ -43,7 +43,6 @@ export const SearchWrapper = styled.div`
 
 ```
 <RecommendItem imgUrl={'xxx'}/>
-复制代码
 ```
 
 在相应的style.js中就能够接受相应的参数:
@@ -55,7 +54,6 @@ export const RecommendItem = styled.div`
   background: url(${(props) => props.imgUrl});
   background-size: contain;
 `;
-复制代码
 ```
 
 CSS能够拿到props中的内容，进行相应的渲染，是不是非常酷炫？
@@ -151,6 +149,14 @@ render(
   stylelint-config-recommended)
 ```
 
+##### stylelint-processor-styled-components
+
+对于这个模块，用于对css in js的格式的css lint配置，但是也会造成很多没必要的语法错误，不能为空的资源限制，没有浏览器前缀等等，因为浏览器兼容css in js已经做了。继承styelint-config-styled-component和标准规则style-config-recommended.
+
+##### stylelint-config-styled-component
+
+这个模块主要就是弥补上个模块的缺点
+
 ### 设定
 
 将.stylelintrc文件添加到项目的根目录：
@@ -190,3 +196,58 @@ npm run lint ：css
 **注意**
 
 请注意，由于Stylelint自定义处理器可能的限制，不支持--fix选项
+
+#### 使用其他css in js库规范情况
+
+其他一些库也使用标记的模板文字实现了styled.x模式。只要它们使用样式关键字，此处理器也将在那些带标签的模板文字中添加CSS 。
+
+如果您想将处理器与其他库一起使用，但又想更改关键字（例如，编写cool.div而不是styled.div），请使用moduleName选项：
+
+```
+import cool from 'other-library'
+
+const Button = cool.button`
+  color: blue;
+`
+{
+```
+
+## 四. 自定义style规则
+
+```
+"use strict";
+
+module.exports = {
+  rules: {
+    "at-rule-no-unknown":true,//禁止使用未知规则
+    "block-no-empty":true,//禁止使用空标签
+    "color-no-invalid-hex": true,//禁止使用无效的16进制
+    "comment-no-empty": true,//禁止使用空评论
+    "declaration-block-no-duplicate-properties": [//在声明块中禁止重复属性
+      true,
+      {
+        ignore: ["consecutive-duplicates-with-different-values"]//可以让重复值的连续属性存在px和rem可以连续存在,注意是连续
+      }
+    ],
+    "declaration-block-no-shorthand-property-overrides": true,//不能用短属性重写长属性
+    "font-family-no-duplicate-names": true,//不能重复定义字体
+    "font-family-no-missing-generic-family-keyword": true,//不能使用为定义的字体
+    "function-calc-no-invalid": true,//不能使用无效的calc函数
+    "function-calc-no-unspaced-operator": true,//calc运算符之间必须有空格
+    "function-linear-gradient-no-nonstandard-direction": true,//linear-gradient的方向必须在规定属性内
+    "keyframe-declaration-no-important": true,//keyframe中不能使用imporatant
+    "media-feature-name-no-unknown": true,//媒介名必须定义
+    "no-descending-specificity": true,//禁止权重低的选择器覆盖权重高的选择器
+    "no-duplicate-at-import-rules": true,//不能导入重复的@import规则
+    "no-duplicate-selectors": true,//不能有重复的选择器
+    "no-empty-source": true,//不能有空的资源，也就是空css文件
+    "property-no-unknown": true,//不允许未知属性
+    "selector-type-no-unknown": true,//选择器不允许使用未知的
+    "unit-no-unknown": true//使用未知单位
+  }
+};
+
+```
+
+
+
