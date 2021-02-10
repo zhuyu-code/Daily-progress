@@ -25,6 +25,24 @@
 
 ---
 
+## Node.js
+
+#### Egg.js专题学习
+
+- [Egg.js学习之路（1）项目的基本搭建](./egg/Egg.js学习之路（1）项目的基本搭建.md)
+- [Egg.js学习之路（2）和mysql的交互](./egg/Egg.js学习之路（2）和mysql的交互.md)
+- [Egg.js学习之路（3）orm框架sequlize的交互](./egg/Egg.js学习之路（3）orm框架sequlize的交互.md)
+- Egg.js学习之路（4）centos配置redis和egg+redis的交互
+- Egg.js学习之路（5）中间件的使用和自定义中间件
+- Egg.js学习之路（6）登录注册jwt的实践
+- Egg.js学习之路（7）登录注册cookie session的实践
+- Egg.js学习之路（8）github,微博等oauth三方登录
+
+#### Nest.js专题
+
+* Nest.js学习之路（1）项目的基本搭建
+* Nest.js学习之路（2）restful接口搭建
+
 ## 基础知识类
 
 ### css 类
