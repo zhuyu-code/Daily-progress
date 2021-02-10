@@ -27,21 +27,28 @@
 
 ## Node.js
 
-#### Egg.js专题学习
+#### Egg.js 专题学习
 
-- [Egg.js学习之路（1）项目的基本搭建](./egg/Egg.js学习之路（1）项目的基本搭建.md)
-- [Egg.js学习之路（2）和mysql的交互](./egg/Egg.js学习之路（2）和mysql的交互.md)
-- [Egg.js学习之路（3）orm框架sequlize的交互](./egg/Egg.js学习之路（3）orm框架sequlize的交互.md)
-- Egg.js学习之路（4）centos配置redis和egg+redis的交互
-- Egg.js学习之路（5）中间件的使用和自定义中间件
-- Egg.js学习之路（6）登录注册jwt的实践
-- Egg.js学习之路（7）登录注册cookie session的实践
-- Egg.js学习之路（8）github,微博等oauth三方登录
+- [Egg.js 学习之路（1）项目的基本搭建](./egg/Egg.js学习之路（1）项目的基本搭建.md)
+- [Egg.js 学习之路（2）和 mysql 的交互](./egg/Egg.js学习之路（2）和mysql的交互.md)
+- [Egg.js 学习之路（3）orm 框架 sequlize 的交互](./egg/Egg.js学习之路（3）orm框架sequlize的交互.md)
+- Egg.js 学习之路（4）centos 配置 redis 和 egg+redis 的交互
+- Egg.js 学习之路（5）中间件的使用和自定义中间件
+- Egg.js 学习之路（6）登录注册 jwt 的实践
+- Egg.js 学习之路（7）登录注册 cookie session 的实践
+- Egg.js 学习之路（8）github,微博等 oauth 三方登录
 
-#### Nest.js专题
+#### Nest.js 专题
 
-* Nest.js学习之路（1）项目的基本搭建
-* Nest.js学习之路（2）restful接口搭建
+- Nest.js 学习之路（1）项目的基本搭建
+- Nest.js 学习之路（2）restful 接口搭建
+- Nest.js 学习之路（3）orm 框架 typeorm 的使用
+- Nest.js 学习之路（4）passport+jwt 登录注册的事件
+
+* Nest.js 学习之路（5）中间件的实践（class 中间件和函数中间件）
+* Nest.js 学习之路（6）拦截器的实践
+* Nest.js 学习之路（7）过滤器的实践
+* Nest.js 学习之路（8）Nest 的错误处理机制
 
 ## 基础知识类
 
