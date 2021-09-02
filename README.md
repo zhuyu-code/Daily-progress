@@ -1,4 +1,4 @@
-## 博客记录
+# 博客记录
 
 - [docker 深入浅出](./1/docker1.md)
 - [前端跨域处理的七种方式](./1/前端跨域处理的几种方式.md)
@@ -25,9 +25,10 @@
 
 ---
 
-## Node.js
+# 专题学习
+### Node.js
 
-#### Egg.js 专题学习
+##### Egg.js 专题学习
 
 - [Egg.js 学习之路（1）项目的基本搭建](./egg/Egg.js学习之路（1）项目的基本搭建.md)
 - [Egg.js 学习之路（2）和 mysql 的交互](./egg/Egg.js学习之路（2）和mysql的交互.md)
@@ -38,7 +39,7 @@
 - Egg.js 学习之路（7）登录注册 cookie session 的实践
 - Egg.js 学习之路（8）github,微博等 oauth 三方登录
 
-#### Nest.js 专题
+#####  Nest.js 专题
 
 - Nest.js 学习之路（1）项目的基本搭建
 - Nest.js 学习之路（2）restful 接口搭建
@@ -50,7 +51,7 @@
 * Nest.js 学习之路（7）过滤器的实践
 * Nest.js 学习之路（8）Nest 的错误处理机制
 
-## 基础知识类
+### 基础知识类
 
 ### css 类
 
@@ -62,9 +63,16 @@
 
 ---
 
-## 经典好文
+# 经典好文
 
 - [Session 和 cookie 深度理解](https://www.jianshu.com/p/25802021be63)
 - [阮一峰 JWT](https://segmentfault.com/a/1190000017248226)
-- [麦松服务器总结配置](https://blog.csdn.net/qq_40121685/article/details/102504131)
 - [为什么要加 super(props)](https://overreacted.io/zh-hans/why-do-we-write-super-props/)
+
+##### Vue3.0相关好文
+- [Vue3.0和react hook的优缺点](https://www.cnblogs.com/chengxuyuanaa/p/13071160.html)
+- [Vue Hooks库u3u](https://github.com/u3u/vue-hooks)
+
+##### 服务器相关好文
+- [gitlab ci部署流程](https://mp.weixin.qq.com/s/c8P69DRy--kg8hgA8mQwvg)
+- [麦松服务器总结配置](https://blog.csdn.net/qq_40121685/article/details/102504131)
