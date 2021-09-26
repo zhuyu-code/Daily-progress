@@ -22,6 +22,12 @@
 - [JavaScript 异步事件概述](./1/JavaScript异步事件概述.md)
 - [session,cookie,sessionStorage,localStorage 的区别及应用场景](./1/session,cookie,sessionStorage,localStorage的区别及应用场景.md)
 - [css in js 和 style lint 的结合](./1/stylelint.md)
+- [前端文件+后端文件实践](./文件/大文件上传与断点续传的客户端与服务端实现.md)
+- [彻底搞懂this的指向问题](./基础知识类/js基础/彻底搞懂this指向.md)
+- [resultful和Graphl规范](./后端/Restful和Graphl规范.md)
+- [从0开发一个cli](./基础知识类/从0开发一个cli.md)
+- [大文件上传与断点续传的客户端与服务端实现](./文件/大文件上传与断点续传的客户端与服务端实现.md)
+
 
 ---
 
@@ -51,7 +57,9 @@
 * Nest.js 学习之路（7）过滤器的实践
 * Nest.js 学习之路（8）Nest 的错误处理机制
 
-### 基础知识类
+### JS遍历方法
+
+[js遍历方法之forEach](./基础知识类/遍历方法/JS遍历方法之ForEach)
 
 ### css 类
 
