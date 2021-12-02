@@ -39,7 +39,7 @@
 - [Egg.js 学习之路（1）项目的基本搭建](./egg/Egg.js学习之路（1）项目的基本搭建.md)
 - [Egg.js 学习之路（2）和 mysql 的交互](./egg/Egg.js学习之路（2）和mysql的交互.md)
 - [Egg.js 学习之路（3）orm 框架 sequlize 的交互](./egg/Egg.js学习之路（3）orm框架sequlize的交互.md)
-- Egg.js 学习之路（4）centos 配置 redis 和 egg+redis 的交互
+- [Egg.js 学习之路（4）centos 配置 redis 和 egg+redis 的交互](./egg/Egg.js 学习之路（4）centos 配置 redis 和 egg+redis 的交互.md)
 - Egg.js 学习之路（5）中间件的使用和自定义中间件
 - Egg.js 学习之路（6）登录注册 jwt 的实践
 - Egg.js 学习之路（7）登录注册 cookie session 的实践

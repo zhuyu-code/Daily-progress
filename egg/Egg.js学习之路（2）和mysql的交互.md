@@ -18,7 +18,7 @@ exports.mysql = {
 
 在config.default.js配置连接mysql的参数(具体参见官方文档)，以下配置够用即可
 
-```
+```js
   config.mysql = {
     client: {
       // host
@@ -132,7 +132,7 @@ const results = await this.app.mysql.query('update posts set hits = (hits + ?) w
 
 手动控制
 
-```
+```js
 const conn = await app.mysql.beginTransaction(); // 初始化事务
 
 try {
@@ -148,7 +148,7 @@ try {
 
 自动控制（推荐）
 
-```
+```js
 const result = await app.mysql.beginTransactionScope(async conn => {
   // don't commit or rollback by yourself
   await conn.insert(table, row1);
